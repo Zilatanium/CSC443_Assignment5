@@ -29,7 +29,7 @@
 			This Table below is displaying improvements on the website.
 			<?php
 				echo "<html><body><table>\n\n";
-				$f = fopen("Delgado Improvements for PC Builds.csv", "r");
+				$f = fopen("Delgado Improvements for PC Builds (Updated).csv", "r");
 				while (($line = fgetcsv($f)) !== false) {
 						echo "<tr>";
 						foreach ($line as $cell) {
@@ -44,7 +44,7 @@
 			This Table below is displaying previous peer evaluations from other people.
 			<?php
 				echo "<html><body><table>\n\n";
-				$f = fopen("Delgado Own Peer-Review 11-28-22.csv", "r");
+				$f = fopen("Delgado Own Peer-Review 12-11-2022.csv", "r");
 				while (($line = fgetcsv($f)) !== false) {
 						echo "<tr>";
 						foreach ($line as $cell) {
@@ -59,7 +59,7 @@
 			This Table below is displaying previous peer evaluations to other people.
 			<?php
 				echo "<html><body><table>\n\n";
-				$f = fopen("Delgado_CSC443_assignment5.csv", "r");
+				$f = fopen("Delgado_CSC443_assignment5(updated).csv", "r");
 				while (($line = fgetcsv($f)) !== false) {
 						echo "<tr>";
 						foreach ($line as $cell) {
